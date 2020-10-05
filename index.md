@@ -44,4 +44,4 @@ Contribution :
 
 Version :
 ---------
-* Website 1.06n
+* Website 1.06o
