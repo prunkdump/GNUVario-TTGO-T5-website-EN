@@ -11,7 +11,7 @@ Characteristics :
 ---------
 * High precision altitude with improved ms5611 code
 * High precision vertical speed with InvenSense accelerometer
-* Display on a 1.54 ”or 2.9" E-paper Waveshare screen: altitude, vertical speed, ground speed, ...
+* Display on a 1.54 ”or Good Display 2,9" (GDEW029M06) E-paper screen: altitude, vertical speed, ground speed, ...
 * Ground speed and glide ratio with GPS
 * Flight tracking with SD card reader and GPS
 * Bluetooth communication with external device (coming soon)
@@ -44,4 +44,4 @@ Contribution :
 
 Version :
 ---------
-* Website 1.06r
+* Website 1.06s
