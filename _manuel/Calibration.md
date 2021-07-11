@@ -8,7 +8,7 @@ description: Calibration
 
 The GnuVario-E incorporates an accelerometer, which must be calibrated.
 
-**Procédure:**
+**Procedure:**
 
 Since version 0.10.2 of the webserver, the calibration procedure is simplified. 
 
@@ -60,7 +60,7 @@ To be optimal, the calibration should not be done on a north/south axis. If you 
 **Wait for the 3 beeps** then start rotating the vario in all directions using a support (cardboard, book) to stabilize it on its edge.
 You must do about 5 to 6 moves per side while waiting for the beep between each move
 The more measurements you take, the more accurate the calibration will be.
-**ATTENTION it is essential not to forget any face**     
+**ATTENTION it is essential not to forget any face**.     
 
 At the end, press the left button of the vario for at least two seconds to complete the calibration. The vario restarts.   
 

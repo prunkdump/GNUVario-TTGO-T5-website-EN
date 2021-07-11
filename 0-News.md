@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: default
 title: News
 description: Introduction
 ---
 
-**11 July 2021 LAST NEWS**{: style="color:   #138ca2; opacity: 1;" }
+**11 July 2021 LASTEST NEWS**{: style="color:   #138ca2; opacity: 1;" }
 
 
 Some manual pages have been updated
