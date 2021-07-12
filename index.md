@@ -40,7 +40,8 @@ Contribution :
 * pixyz Developer / Website developer       
 * prunkdump Developer / initial source code        
 * ratamuse  PCB / 3d case design / Developer / Contibution to website     
-* vmath54  Contibution to website      
+* vmath54  Contibution to website  
+* Ttamttam Contibution to website  
 
 Version :
 ---------
