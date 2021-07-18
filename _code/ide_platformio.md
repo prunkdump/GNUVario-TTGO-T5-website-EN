@@ -8,12 +8,12 @@ We will use PlarformIO with the Visual Studio IDE (VSCode).
 
 This IDE is available for Windows, Linux and Mac environments; the following doc indicates the procedure for an installation under Windows.
 
-The complete documentation of the PlatformIO installation with VSCode is [described here] (https://docs.platformio.org/en/latest/ide/vscode.html); here is a summary.
+The complete documentation of the PlatformIO installation with VSCode is [described here](https://docs.platformio.org/en/latest/ide/vscode.html); here is a summary.
 
 ### installation of VSCode
 
-The installation executable is available at [https://code.visualstudio.com/oquer(https://code.visualstudio.com/).
-In the Windows environment, we will download a file like * VSCodeUserSetup-x64-1.42.1.exe *.
+The installation executable is available at [https://code.visualstudio.com/](https://code.visualstudio.com/).
+In the Windows environment, we will download a file like `VSCodeUserSetup-x64-1.42.1.exe`.
 Double-click on this file, and the installation wizard will run; leave the default options.
 
 ### installation of PlatformIO

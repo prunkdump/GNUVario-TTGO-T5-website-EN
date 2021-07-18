@@ -1,38 +1,55 @@
 ---
-step: 3
+step: 1
 title: Manual
 description: First start
 ---
 
-Before you can use Gnuvario-E you must install the software and prepare the SD card
+Before you can use the Gnuvario-E you must install the software and then prepare the MicroSD card.
+To do this, you need to download:
+- The tool [**Flash download tools**](https://www.espressif.com/en/support/download/other-tools) from Espressif.
+- The binary of [**GNUVario-E**](http://gnuvario-e.yj.fr/) corresponding to your screen and printed circuit version, available on the download page.
+- The two binaries required for a first compilation, available in the compressed folder [**Binaires_Flashdownloadtool.ZIP**](http://gnuvario-e.yj.fr/), available on the download page.
 
-### Preparing the SD card #
-On a blank MicroSD card formatted in Fat16 or 32, copy the contents of the RootSD folder to the root of the SD card.
+The different software versions can be broken down into 3 figures. The first indicates the version of the PCB, from 1 to 3. The last 2 correspond to the type of screen supported and its orientation on the variometer.
 
-### Update of Gnuvario-E #
-Before updating the vario you must download and install the flash download tools from express
+The currently supported combinations are:
 
-Flash Download Tools: <https://www.espressif.com/en/support/download/other-tools>
+|**Gnuvario154**    |   PCB Version 1 with 1.54" display |
+|**Gnuvario254**    |   PCB Version 2 with 1.54" display |
+|**Gnuvario290**    |   PCB Version 2 with 2.9" landscape display  (TTGO-T5-V2.4 before 12/2020)|
+|**Gnuvario291**    |   PCB Version 2 with 2.9" portrait screen(TTGO-T5-V2.4 before 12/2020)|
+|**Gnuvario292**    |   PCB Version 2 with 2.9" landscape display (Ecran Good Display GDEW029M06)|      
+|**Gnuvario293**    |   PCB Version 2 with 2.9" portrait screen (Ecran Good Display GDEW029M06)|
+|**Gnuvario294**    |   PCB Version 2 with 2.9" portrait screen  (TTGO-T5-V2.4 after 12/2020 Screen number DKEG0290BNS800F6 /QYEG0290BNS800F6C02 ) For test only, degraded display.|
+|**Gnuvario354**    |   PCB Version 3.1 with 1.54" display |
+|**Gnuvario390**    |   PCB Version 3.1 with 2.9" landscape display (TTGO-T5-V2.4 before 12/2021)|
+|**Gnuvario391**    |   PCB Version 3.1 with 2.9" portrait screen (TTGO-T5-V2.4 before 12/2021)|
+|**Gnuvario392**    |   PCB Version 3.1 with 2.9" landscape display Good Display GDEW029M06| 
+|**Gnuvario393**    |   PCB Version 3.1 with 2.9" portrait screen Good Display GDEW029M06 |
+ 
+ 
+### **Updating the Gnuvario-E**{: style="color:   #138ca2; opacity: 1;" }   
+Start the Gnuvario-E without the SD card, **then** connect it to the PC through the usb port. The PC will see the vario as a serial port, for example COM3.
 
-Start the Gnuvario-E without the SD card, **then** connect it to the PC by the usb port. The PC will see the vario as a serial port; for example, COM3.
+Run `flash_download_tools.exe`. choose the "**Chip Type ESP32**" and "**WorkMode develop**".
 
-Run flash_download_tools.exe; choose the option 'ESP32 DownloadTool'.
+{% include manuelimg.md name = "FDT1.jpg"%}
+{% include manuelimg.md name = "FDT2.jpg"%}
 
-Then choose the last .bin file, using the following parameters (choose the COM port corresponding to the vario):
+**Select the following 3 files:**{: style="color:   #138ca2; opacity: 1;" }
 
-![Flash_download_tools]({{'/assets/manuel_img/flashTools.jpg' | relative_url}})
+- The compiled binary of the GNUVario-e at address **0x10000**. Here the Gnuvario294b version.
+- The bootloader_dio_40m.bin binary at address **0x1000**
+- the binary partitions.bin at address **0x8000**
 
-Press the Start button; the green square 'IDLE' then indicates 'Download', and a green progress bar is displayed at the bottom of the utility.
-Writing the software takes about 2 minutes; when finished, the green square displays 'FINISH'.
+Then in the window **"SpiFlashConfig"**, press the button **"Default"** or choose the options as in the image above (40MHz, DIO, 32Mbit, DoNotChgBin).
+Choose the **COM** port corresponding to the USB port to which your vario is connected.
 
-You can then cut the power to the Gnuvario-E, disconnect the usb port, insert the sdcard and restart the vario.
+Press the **"Start"** button. The green square **"IDLE"** then indicates **"Download"**, and a green progress bar is displayed at the bottom of the utility.
+Writing the software takes about 2 minutes. When it is finished, the green square displays **"FINISH"**.
 
-**ATTENTION**
+You can then cut off the power to the Gnuvario-E and unplug the usb port.
 
-If you have compiled the source code with PlatformIO instead of the Arduino IDE, it is necessary to add the partition table in 0x8000 which you will find in your .pio compilation folder.
+Now it's time to prepare the MicroSD card.
 
-The binaries available on the download page are compiled with the Arduino IDE. 
-{% include manuelimg.md name="code&partition.PNG" %}
 
-Finally, if you have erased all of your flash you will need to load the 0X1000 bootloader.
-The bin code can be found on <https://github.com/espressif/arduino-esp32> in the tools area.

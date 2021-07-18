@@ -10,7 +10,7 @@ The source code can be downloaded directly as a zip file on [GitHub](https://git
 
 ![GitHub download zip]({{"/assets/code_img/code1.jpg" | absolute_url}})
 
-Extract the zip to the location of your choice. This will create a ** Gnuvario-TTGO-T5-master ** directory.
+Extract the zip to the location of your choice. This will create a **Gnuvario-TTGO-T5-master** directory.
 
 ![GitHub zip download]({{"/assets/code_img/code2.jpg" | absolute_url}})
 

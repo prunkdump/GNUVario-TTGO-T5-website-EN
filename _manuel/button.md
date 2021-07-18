@@ -1,5 +1,5 @@
 ---
-step: 2
+step: 4
 title: Manual
 description: Pushbuttons
 ---
@@ -44,7 +44,7 @@ description: Pushbuttons
 
 ## **Main page :**{: style="color:   #138ca2; opacity: 1;" }
 
-{% include manuelimg.md name="ecran291mainpage.png" %}
+ {% include manuelimg.md name="ecran291mainpage.png" %}  
 
 
 ## **Volume adjustment page (Sound) :**{: style="color:   #138ca2; opacity: 1;" }

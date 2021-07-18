@@ -1,5 +1,5 @@
 ---
-step: 1
+step: 3
 title: Manual
 description: Screen description 
 ---

@@ -1,6 +1,5 @@
 ---
-step: 4
-title: Manual
+step: 5
 description: Wifi
 ---
 

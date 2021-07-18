@@ -50,6 +50,13 @@ or better
 ( flat head philips type b self tapping screw for plastic)
 
 {% include materielimg.md name="vis.jpg" %}
+
+ or if you prefer to put inserts
+
+
+* 4 × M3 × 4 mm inserts + 4 × M3 × 20 mm conical head screws
+
+    {% include materielimg.md name="vis-inserts.jpg" %}
 	 
 * Velcro 15mm or 20mm
 

@@ -1,9 +1,7 @@
 ---
-layout: page
-title: Description
-linkdesc: See the project
-linkmsg: GO !
-linktarget: "https://github.com/prunkdump/GNUVario-TTGO-T5"
+layout: default
+title: Home
+description: Introduction
 ---
 The GNUVario-E project is a collaborative effort to create a variometer using **open source hardware and software**{: style="color:   #138ca2; opacity: 1;" }.
 
@@ -43,8 +41,10 @@ The GNUVario-E project is a collaborative effort to create a variometer using **
 *    prunkdump Developer / initial source code
 *    ratamuse PCB / 3d case design / Developer / Website
 *    Ttamttam Contibution to website
+*    Ttamttam Contibution to website
 *    vmath54 Contibution to website
-   
+
+
 
 ## **Version :**{: style="color:   #138ca2; opacity: 1;" }
 

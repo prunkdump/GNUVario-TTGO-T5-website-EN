@@ -41,24 +41,25 @@ Place the speaker in the available bracket on the cover of the housing **without
 {% include tutoimg.md name="IMG_8834.JPG" %}
 {% include tutoimg.md name="IMG_8835.JPG" %}
 
+The MS5611 barometer soldered on the CJMCU-117 is very sensitive to sunlight. Put a small piece of foam or neoprene on the CJMCU-117 to protect it from direct sunlight that could pass through the case buttons.
+
+**Be careful** to calculate the thickness correctly so as not to damage the components when the case is closed.
+{% include tutoimg.md name = "Mousse MS5611.jpg"%}
+
+
+
 Check that the case closes properly. **Do not apply too much pressure!** You can place the screws.
 {% include tutoimg.md name="IMG_8836.JPG" %}
 {% include tutoimg.md name="IMG_8837.JPG" %}
 {% include tutoimg.md name="IMG_8838.JPG" %}
 
-You can replace the screen if necessary. **Gently peel off the double side and replace the screen carefully and do not apply too much pressure!**
-{% include tutoimg.md name="IMG_8842.JPG" %}
+You can replace the screen if necessary. **Gently peel off the double side and replace the screen carefully and do not apply too much pressure!** The simplest is to use a cutter blade on which you will have put a few drops of alcohol to dissolve the glue.
+{% include tutoimg.md name="cutter.jpeg" %}
 {% include tutoimg.md name="IMG_8843.JPG" %}
 
 Finish by placing the speaker at the bottom of the support and closing the case.
 {% include tutoimg.md name="IMG_8839.JPG" %}
 {% include tutoimg.md name="IMG_8844.JPG" %}
 
-Your GnuVario is finished
-1. Charge the battery until it is full.
-2. Copy the files from the RootSD folder to the root of the SD card and insert it into the connector on the left.
-3. Update the variometer via the USB port.
-4. Power on the Gnuvario-E.
-5. Wait a few seconds, a beep sounds and the screen lights up.
-6. If that doesn't work, check your welds.
-{% include tutoimg.md name="20190727_122628b.jpg" %}
+Your GnuVario-e is finished
+
